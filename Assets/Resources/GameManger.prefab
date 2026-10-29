@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7923007293009264397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 264588212716096327}
+  - component: {fileID: 1361028971866689765}
+  - component: {fileID: 7953981787313679923}
+  - component: {fileID: 3381161020374374152}
+  m_Layer: 0
+  m_Name: GameManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &264588212716096327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7923007293009264397}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 215.33089, y: 86.59168, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1361028971866689765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7923007293009264397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d9c4df455d9c44ab213aa0e578828f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  playerProfile: {fileID: 11400000, guid: 4e0e70a8adb1852458d7f09dd6a9aabe, type: 2}
+  progressSystem: {fileID: 7953981787313679923}
+  objectiveSystem: {fileID: 3381161020374374152}
+--- !u!114 &7953981787313679923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7923007293009264397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b14a673e7d5de14789a8b472c964a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerProgressSystem
+  playerProfile: {fileID: 11400000, guid: 4e0e70a8adb1852458d7f09dd6a9aabe, type: 2}
+  objectiveSystem: {fileID: 3381161020374374152}
+--- !u!114 &3381161020374374152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7923007293009264397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81227d221b2467c4899f7faf16f13490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectiveSystem
+  playerProfile: {fileID: 11400000, guid: 4e0e70a8adb1852458d7f09dd6a9aabe, type: 2}
+  activeObjectives:
+  - title: Reach a top speed of 70
+    type: 0
+    target: 70
+    currentProgress: 0
+    isCompleted: 0
+    xpReward: 30
+    goldReward: 300
+  - title: Perform 3 perfect shifts
+    type: 1
+    target: 3
+    currentProgress: 0
+    isCompleted: 0
+    xpReward: 20
+    goldReward: 200
+  - title: Reach a top speed of 30
+    type: 0
+    target: 30
+    currentProgress: 0
+    isCompleted: 0
+    xpReward: 50
+    goldReward: 500
+  perfectUpshiftsThisRun: 0
+  distanceThisRun: 0
+  peakSpeedThisRun: 0
+  scoreThisRun: 0

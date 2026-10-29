@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72c73462c0992b419083bbc1a7a9a19, type: 3}
+  m_Name: PlayerProfileTest
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerProfile
+  playerName: testing
+  level: 1
+  xp: 0
+  xpToNextLevel: 100
+  gold: 1000
+  topScore: 0
+  topSpeed: 0
+  garage:
+  - {fileID: 3936214606274926858, guid: a36c5faa209f1b74e9ca0a4fcb3fa3ec, type: 3}

@@ -1,0 +1,485 @@
+fileFormatVersion: 2
+guid: 0b834b55652991241abf5455e3bf79d9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: In_Game_UI_v2_LargePanel
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 762
+        width: 1017
+        height: 606
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 36, y: 23, z: 24, w: 14}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4053a248af5f54da6aed5c185582f0
+      internalID: -2146057911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_0
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 422
+        width: 913
+        height: 333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 14, y: 12, z: 9, w: 4}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3852437f69dfa440bee5169b9013bc4
+      internalID: 1788601552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_redBtn
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 2008
+        width: 401
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 10, z: 13, w: 16}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c843e2ed4748649b95f8008656bb2d
+      internalID: 1216036216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_1
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2007
+        width: 401
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 14, z: 10, w: 18}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d93bdf1b3312384fad38664cd1b5f04
+      internalID: 546414063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_shifterUp
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 934
+        width: 298
+        height: 547
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 15, z: 10, w: 11}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0817f458ddb772c4dbdcb19294f3f4d1
+      internalID: 858870525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_shifterdown
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 933
+        width: 302
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 5, z: 10, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12745cb6d0fe5a64f94b46ccd7501e26
+      internalID: 26658510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_4
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 699
+        width: 870
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 12, y: 4, z: 5, w: 12}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56024752d55af54489782f630f6f0bbd
+      internalID: 1914939572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_profileBadge
+      rect:
+        serializedVersion: 2
+        x: 2186
+        y: 706
+        width: 1029
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 11, z: 0, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeef7c89a539074ea87dfbfe81feb0a
+      internalID: -594677860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_top_badge
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 386
+        width: 953
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 13, y: 17, z: 14, w: 10}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c3beb8b6f1edc4aa12d1bd745cabe4
+      internalID: 1886232137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_plainBanner
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 392
+        width: 945
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 12, z: 14, w: 9}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aee40e7db733b949ad2c05b7ff55f69
+      internalID: 1633074877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_2
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 1481
+        width: 334
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 6, y: 0, z: 13, w: 4}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652c175bc6c0bc345a90675c7b9c89e4
+      internalID: -1961576364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_alteLeftBttn
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1823
+        width: 401
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 11, y: 12, z: 13, w: 18}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760a757f8eec9954e8bfeacb8741ab7e
+      internalID: 425062941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_alteRightBttn
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1824
+        width: 404
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 15, y: 12, z: 10, w: 11}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c902519730305574682fa12f194aa6ad
+      internalID: -137614352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_basicButton
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1451
+        width: 418
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 26, z: 5, w: 8}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa268385f96285b4d8d8d62dc77fbb14
+      internalID: 63967153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_3
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 1656
+        width: 662
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 9, y: 16, z: 12, w: 10}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169c8dcf195c7c4439d10c9e9c649705
+      internalID: -1787099494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: In_Game_UI_v2_5
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 1734
+        width: 488
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 8, y: 12, z: 15, w: 16}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22a650489d850e4d92e8ace9e914e71
+      internalID: 1226546012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 36ea964973f54114f862d844e06d70e4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      In_Game_UI_v2_0: 1788601552
+      In_Game_UI_v2_1: 546414063
+      In_Game_UI_v2_2: -1961576364
+      In_Game_UI_v2_3: -1787099494
+      In_Game_UI_v2_4: 1914939572
+      In_Game_UI_v2_5: 1226546012
+      In_Game_UI_v2_LargePanel: -2146057911
+      In_Game_UI_v2_alteLeftBttn: 425062941
+      In_Game_UI_v2_alteRightBttn: -137614352
+      In_Game_UI_v2_basicButton: 63967153
+      In_Game_UI_v2_plainBanner: 1633074877
+      In_Game_UI_v2_profileBadge: -594677860
+      In_Game_UI_v2_redBtn: 1216036216
+      In_Game_UI_v2_shifterUp: 858870525
+      In_Game_UI_v2_shifterdown: 26658510
+      In_Game_UI_v2_top_badge: 1886232137
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
